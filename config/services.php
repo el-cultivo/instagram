@@ -38,7 +38,7 @@ return [
     'instagram' => [
         'client_id' => env('INSTAGRAM_CLIENT_ID'),
         'client_secret' => env('INSTAGRAM_CLIENT_SECRET'),
-        'redirect' => url('/') . '/callback',
+        'redirect' => env('INSTAGRAM_CALLBACK_URL'),
     ],
 
 ];
